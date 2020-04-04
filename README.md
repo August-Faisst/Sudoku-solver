@@ -31,7 +31,7 @@ def solve(sudoku):
 
     return False
 ```
-The result will be shown like this:
+The solved sudoku will be returned like this in the output window. 
 ```
 Original sudoku:
 0  0  2  | 0  0  0  | 0  6  0
