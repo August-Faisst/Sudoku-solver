@@ -13,7 +13,7 @@ The algorithm requires an incomplete board to begin with. From here it finds a s
 3. Check if that digit is valid in the current spot based on the current board. If the digit is valid, recursively attempt to fill the board using steps 1-3. If it is not valid, reset the square you just filled and go back to the previous step.
 4. Once the board is full, we have found a solution.
 
-```
+```python
 def solve(sudoku):
     find = find_empty(sudoku)
     if not find:
